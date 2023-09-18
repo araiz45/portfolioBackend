@@ -1,0 +1,30 @@
+{
+  "kind": "collectionType",
+  "collectionName": "works",
+  "info": {
+    "singularName": "work",
+    "pluralName": "works",
+    "displayName": "Work",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "maxLength": 55
+    },
+    "description": {
+      "type": "text",
+      "maxLength": 100
+    },
+    "link": {
+      "type": "string"
+    },
+    "cover": {
+      "type": "integer"
+    }
+  }
+}
